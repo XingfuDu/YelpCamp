@@ -1,0 +1,15 @@
+<%layout('/layouts/boilerplate')%>
+<style>
+    #myid {
+        word-wrap: break-word;
+    }
+</style>
+
+<div class="row">
+    <div class="col-6 offset-3">
+        <div class="alert alert-danger" id="myid" role="alert">
+            <h4 class="alert-heading"><%=err.message%></h4>
+            <p class="text-wrap"><%=err.stack%></p>
+        </div>
+    </div>
+</div>
