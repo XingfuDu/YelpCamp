@@ -10,5 +10,6 @@ router.route('/login')
     .get(users.renderLogin)
     .get(users.logout);
 router.post('/login',passport.authenticate('local',{failureFlash:true,failureRedirect:'/login'}),users.login);
+router.get('/logout', users.logout)
 
 module.exports=router;
