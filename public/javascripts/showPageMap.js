@@ -6,6 +6,8 @@ center: JSON.parse(campground).geometry.coordinates, // starting position [lng, 
 zoom: 9 // starting zoom
 });
 
+map.addControl(new mapboxgl.NavigationControl());
+
 new mapboxgl.Marker()
     .setLngLat(JSON.parse(campground).geometry.coordinates)
     .setPopup(

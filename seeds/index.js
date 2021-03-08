@@ -28,20 +28,17 @@ const seedDB = async () => {
 			title: `${sample(descriptors)} ${sample(places)}`,
 			images: [
 				{
-					url:
-						'https://res.cloudinary.com/derc3x7vc/image/upload/v1615041899/YelpCamp/impigttge0rpslbg9xnm.jpg',
-					filename: 'YelpCamp/impigttge0rpslbg9xnm'
-				},
-				{
-					url:
-						'https://res.cloudinary.com/derc3x7vc/image/upload/v1615041897/YelpCamp/ybzxxdlm2ua6olbtrahj.jpg',
-					filename: 'YelpCamp/ybzxxdlm2ua6olbtrahj'
-				},
-				{
-					url:
-						'https://res.cloudinary.com/derc3x7vc/image/upload/v1615011060/YelpCamp/a6hmk0coex7xuieeqyl0.jpg',
-					filename: 'YelpCamp/a6hmk0coex7xuieeqyl0'
-				}
+					url: 'https://res.cloudinary.com/derc3x7vc/image/upload/v1615173277/YelpCamp/ofxiqk7ilgukb0f6hh3d.jpg',
+					filename: 'YelpCamp/ofxiqk7ilgukb0f6hh3d'
+				  },
+				  {
+					url: 'https://res.cloudinary.com/derc3x7vc/image/upload/v1615173278/YelpCamp/opn139elgkpltvwgffbv.png',
+					filename: 'YelpCamp/opn139elgkpltvwgffbv'
+				  },
+				  {
+					url: 'https://res.cloudinary.com/derc3x7vc/image/upload/v1615173279/YelpCamp/v1dr4gabdczt2ouvedys.jpg',
+					filename: 'YelpCamp/v1dr4gabdczt2ouvedys'
+				  }
 			],
 			description:
 				'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit atque corrupti dolor non ipsum blanditiis sapiente, veritatis reiciendis veniam doloremque! Quaerat magni, ea dolore optio ipsum cum nobis quibusdam voluptas?',
